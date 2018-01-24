@@ -1,12 +1,13 @@
-
+//generates business card in c++
 #include<iostream>
-#include<ostream>
 using namespace std;
 
 int main()
 {
-	int i;
-	while (i<37)
+	//repeats pattern till i equals j. Set j to odd number
+	int i, j;
+	j=37;
+	while (i<j)
 	{
 		if (i%2!=0)
 		{
@@ -18,6 +19,7 @@ int main()
 		}
 		i++;
 	}
+	//outputs personal information
 	cout << "\n\n";
 	int a;
 	cout << "             Daniel Novotny \n";
@@ -27,6 +29,7 @@ int main()
 	cout << "  Email : " << "daniel.novotny0@gmail.com\n";
 	cout << "    Git : " << "github.com/DNovotny\n\n";
 	
+	//counts down i repeating pattern below
 	while (i>0)
 	{
 		if (i%2!=0)
